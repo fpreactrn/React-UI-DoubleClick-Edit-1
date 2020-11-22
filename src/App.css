@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.Container{
+  width: 480px;
+  margin: 20px auto;
+  border: 1px solid rgba(3,111,114,0.3);
+  box-shadow: 2px 2px 4px rgba(3,145,150,0.3);
+  border-radius: 4px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Content{
+  margin:20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.Container{
+  width: 480px;
+  height: 200px;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  border: 1px solid rgba(3,111,114,0.3);
+  box-shadow: 2px 2px 4px rgba(3,145,150,0.3);
+  border-radius: 4px;
+}
+
+.Content{
+  margin:20px;
+  width: 410px;
+  height:260px;
+  border: 1px solid red;
+}
+
+.Heading{
+  font-size: 20px;
+  font-weight: 500;
+  color: #039196;
+}
+
+.TextField{
+  margin-top: 20px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid black;
+  height: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.TextField>div{
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0px;
+  color: #039196;
 }
+
+.change{
+  padding-left: 0.25em;
+} */

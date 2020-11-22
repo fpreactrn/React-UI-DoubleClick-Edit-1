@@ -1,0 +1,17 @@
+.TextField{
+    margin-top: 20px;
+    display: flex;
+}
+
+.Change{
+    padding-left: 0.25em;
+}
+  
+input{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 0px;
+    padding-left: 0.25em;
+    color: #039196;
+}
